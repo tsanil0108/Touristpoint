@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uttar Pradesh Tourist Places</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="/public/styles.css" />
+</head>
+<body>
+  <nav class="main-navbar">
+    <div class="logo">
+      <img src="https://cdn1.vectorstock.com/i/1000x1000/67/45/modern-india-business-and-travel-logo-design-vector-33316745.jpg" alt="Logo" />
+      <span class="highlight">Tourist</span>point
+    </div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="/public/index.html">Home</a></li>
+      <li><a href="/public/explore.html">Destinations</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/public/script.js"></script>
+
+  <section class="tourist-list">
+    <h1>Top Tourist Places in Uttar Pradesh</h1>
+
+    <!-- Agra -->
+    <div class="tourist-place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Taj_Mahal%2C_Agra%2C_India_edit3.jpg" alt="Agra" />
+      <h3>Agra</h3>
+      <p>Home to the iconic Taj Mahal, a symbol of love and one of the Seven Wonders of the World.</p>
+      <button class="more-images-btn" data-target="agra-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/S98zpG9PSrWZGAv19" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Varanasi -->
+    <div class="tourist-place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Varanasi_Ghat_-_India.jpg" alt="Varanasi" />
+      <h3>Varanasi</h3>
+      <p>One of the world's oldest cities, Varanasi is a spiritual hub with its sacred Ganga ghats and temples.</p>
+      <button class="more-images-btn" data-target="varanasi-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/rbyCKDW4UKWaR1Kq9" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Lucknow -->
+    <div class="tourist-place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Bara_Imambara_Lucknow.jpg" alt="Lucknow" />
+      <h3>Lucknow</h3>
+      <p>The capital city known for its nawabi heritage, delicious cuisine, and monuments like Bara Imambara.</p>
+      <button class="more-images-btn" data-target="lucknow-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/D7PEEBLjRPWBAU3P7" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Mathura -->
+    <div class="tourist-place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Vishram_Ghat_Mathura.jpg" alt="Mathura" />
+      <h3>Mathura</h3>
+      <p>Birthplace of Lord Krishna, known for its temples and vibrant Holi celebrations.</p>
+      <button class="more-images-btn" data-target="mathura-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/gRHCH4jXNzNFrxLG7" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    
+
+    <!-- Ayodhya -->
+    <div class="tourist-place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Shri_Ram_Mandir_Ayodhya.jpg" alt="Ayodhya" />
+      <h3>Ayodhya</h3>
+      <p>A sacred city believed to be the birthplace of Lord Rama, attracting devotees from across the country.</p>
+      <button class="more-images-btn" data-target="ayodhya-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/GY3TeFFkCL66vAwP6" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Vrindavan -->
+    <div class="tourist-place">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Prem_Mandir_Vrindavan_2023.jpg" alt="Vrindavan" />
+    <h3>Vrindavan</h3>
+    <p>Vrindavan is a revered town associated with Lord Krishna's childhood, known for its vibrant temples and festivals.</p>
+    <button class="more-images-btn" data-target="vrindavan-gallery.html">More Images</button>
+    <a href="https://maps.app.goo.gl/Lc9kGHAnXTdkHV7X9" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Sarnath -->
+    <div class="tourist-place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Dhamekh_Stupa%2C_Sarnath.jpg" alt="Sarnath" />
+      <h3>Sarnath</h3>
+      <p>A significant Buddhist site where Lord Buddha gave his first sermon after enlightenment.</p>
+      <button class="more-images-btn" data-target="sarnath-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/nxJrkiDBDJh8dTfq9" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+  </section>
+
+  <a href="/public/explore.html" class="back-button">← Back to Home</a>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h4 class="about">About</h4>
+        <p>TouristPoint is your go-to travel companion, offering insights on top destinations, hidden spots, and travel tips for every kind of traveler.</p>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fa fa-envelope"></i> <a href="mailto:tsanil@gmail.com">tsanil@gmail.com</a></p>
+        <p><i class="fa fa-phone"></i> 7304603314</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Newsletter</h4>
+        <p>Subscribe to get the latest travel news and updates.</p>
+        <form>
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 TouristPoint. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

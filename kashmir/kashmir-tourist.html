@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kashmir Tourist Places</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="/public/styles.css" />
+</head>
+<body>
+  <nav class="main-navbar">
+    <div class="logo">
+      <img src="https://cdn1.vectorstock.com/i/1000x1000/67/45/modern-india-business-and-travel-logo-design-vector-33316745.jpg" alt="Logo" />
+      <span class="highlight">Tourist</span>point
+    </div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="/public/index.html">Home</a></li>
+      <li><a href="/public/explore.html">Destinations</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/public/script.js"></script>
+
+  <section class="tourist-list">
+    <h1>Top Tourist Places in Kashmir</h1>
+
+    <!-- Srinagar -->
+    <div class="tourist-place">
+      <img src="https://www.sotc.in/blog/wp-content/uploads/2022/11/kashmir-houseboat-1.jpg" alt="Srinagar" />
+      <h3>Srinagar</h3>
+    
+      <p>Famous for Dal Lake, houseboats, and Mughal gardens, Srinagar is the summer capital and a top tourist spot.</p>
+      <button class="more-images-btn" data-target="srinagar-gallery.html">More Images</button>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Srinagar,+Jammu+and+Kashmir,+India" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Gulmarg -->
+    <div class="tourist-place">
+      <img src="https://s3.india.com/wp-content/uploads/2024/07/10-Fascinating-Facts-About-Gulmarg-Jammu-Kashmir.jpg?impolicy=Medium_Widthonly&w=350&h=263" alt="Gulmarg" />
+      <h3>Gulmarg</h3>
+      <p>Known for skiing and scenic beauty, Gulmarg is a top destination for adventure lovers and honeymooners.</p>
+      <button class="more-images-btn" data-target="gulmarg-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/4UgZWAVf3WiBWgeq8" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Pahalgam -->
+    <div class="tourist-place">
+      <img src="https://www.sreestours.com/blog/wp-content/uploads/2025/04/Places-to-Visit-in-Pahalgam-870x342.jpg" alt="Pahalgam" />
+      <h3>Pahalgam</h3>
+      <p>A beautiful valley town surrounded by lush greenery and Lidder River, ideal for nature walks and pony rides.</p>
+      <button class="more-images-btn" data-target="pahalgam-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/3Xw97QJZxNDGDV8N7" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Sonmarg -->
+    <div class="tourist-place">
+      <img src="https://cliffhangersindia.com/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-22-at-12.23.57-PM-1.jpeg" alt="Sonmarg" />
+      <h3>Sonmarg</h3>
+      <p>Sonmarg, or 'Meadow of Gold', is famous for its glaciers, trekking trails, and breathtaking scenery.</p>
+      <button class="more-images-btn" data-target="sonmarg-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/PJ9eGeQbMi7VJuyf7" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+
+    <!-- Betaab Valley -->
+    <div class="tourist-place">
+      <img src="https://brownchinarkashmir.com/wp-content/uploads/2024/11/betaab_valley_brown_chinar_kashmir.jpg.webp" alt="Betaab Valley" />
+      <h3>Betaab Valley</h3>
+      <p>Named after a Bollywood movie, this lush valley is surrounded by snow-capped peaks and pine forests.</p>
+      <button class="more-images-btn" data-target="betaab-gallery.html">More Images</button>
+      <a href="https://maps.app.goo.gl/Gq7KjR6bET5z3yxF9" target="_blank" class="directions-btn">Get Directions</a>
+    </div>
+  </section>
+
+  <a href="/public/explore.html" class="back-button">← Back to Home</a>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h4 class="about">About</h4>
+        <p>TouristPoint is your go-to travel companion, offering insights on top destinations, hidden spots, and travel tips for every kind of traveler.</p>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><i class="fa fa-envelope"></i> <a href="mailto:tsanil@gmail.com">tsanil@gmail.com</a></p>
+        <p><i class="fa fa-phone"></i> 7304603314</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Newsletter</h4>
+        <p>Subscribe to get the latest travel news and updates.</p>
+        <form>
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 TouristPoint. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
